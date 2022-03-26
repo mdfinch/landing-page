@@ -9,46 +9,56 @@
 </head>
 <body>
     <header>
-        <img src="./images/linux.png" alt="header logo">
+        <img src="./images/linux.png" alt="header logo" class="icon">
         <div class="nav">
-            <p>Games</p>
-            <p>Quote</p>
-            <p>Contact</p>
+            <h3><a href="#games">Games</a></h3>
+            <h3><a href="#quote">Quote</a></h3>
+            <h3><a href="#contact">Contact</a></h3>
         </div>
     </header>
     <div class="hero">
-        <h1>Adrenaline is excellent</h1>
-        <p>Whether it's comes from action or horror, what you're really seeking is that sweet hit of adrenaline</p>
+        <div class="signup">
+            <h1>Adrenaline is excellent</h1>
+            <p>Whether it's comes from action or horror, what you're really seeking is that sweet hit of epinephrine --></p>
+            <button>Sign up</button>
+        </div>
+        <img src="./images/epinephrine.png" alt="a pciture of epinephrine" class="image">
     </div>
     <div class="information">
-        <p>Types of adrenaline fueled games</p>
+        <h1>A selection of games that will get your heart pumping!</h1>
     </div>
-        <div class="cover-art">
-            <div>
-                <img src="./images/dark-souls-3.jpg" alt="a picture of Dark Souls">
-                <p>... now only embers remain</p>
+        <div class="cover-art" id="games">
+            <div class="caption">
+                <img src="./images/dark-souls-3.jpg" alt="a picture of Dark Souls" >
+                <h3>... now only embers remain</h3>
             </div>
-            <div>
+            <div class="caption">
                 <img src="./images/dead-space.jpg" alt="a picture of Sekiro">
-                <p>Twinlke, twinkle, little star</p>
+                <h3>Twinlke, twinkle, little star</h3>
             </div>
-            <div>
+            <div class="caption">
                 <img src="./images/sekiro.jpg" alt="a picture of Dead Space">
-                <p>Hesitation is defeat</p>
+                <h3>Hesitation is defeat</h3>
             </div>
-            <div>
+            <div class="caption">
                 <img src="./images/half-life-2.jpg" alt="a picture of Half-Life 2">
-                <p>The right man in the wrong place can make all the difference in the world</p>
+                <h3>The right man in the wrong place can make all the difference in the world</h3>
             </div>    
         </div>
     </div>
-    <div class="quote">
+    <div class="quote" id="quote">
         <h1>For a brick, he flew pretty good!</h1>
         <h4>-Sergeant Major Avery Johnson, UNSC Marine Corps</h4>
     </div>
-    <footer>
+    <div class="contact-border" id="contact">
         <h3>Subscribe to our monthly newsletter to receive updates on high octante games!</h3>
-        <p>Sign up by cliking the button right over there --></p>
+        <div class="contact-signup">
+            <p>Sign up by cliking the button right over there --></p>
+            <button>Sign up</button>
+        </div>
+    </div>
+    <footer>
+        <h1>Copyright &copy; mdfinch 2022</h1>
     </footer>
 </body>
 </html>
